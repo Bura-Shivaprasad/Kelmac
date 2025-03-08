@@ -1,0 +1,43 @@
+.background-image{
+ 
+  
+    width: 100%;
+    height: 140vh;
+  
+  
+    background-size: cover;
+    background-position: center;
+ margin-top: 100px;
+ filter: grayscale(100%);
+}
+
+.fourthpage-container{
+    position: relative;
+}
+
+.box{
+   
+     position: absolute;
+   top: 10%;
+    left: 45%;
+    text-align: left    ;
+    color: white;
+    border-radius: 10px;
+  padding: 40px 60px;
+  width: 500px;
+  height: 650px;
+}
+
+.small-text-box{
+    margin-top: -15px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-para{
+    margin-top: -10px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 15px;
+}

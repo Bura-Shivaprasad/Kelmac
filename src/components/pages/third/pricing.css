@@ -1,0 +1,232 @@
+/* .pricing-container {
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -100px;
+  }
+  
+  .pricing-card {
+    position: relative;
+    width: 270px;
+    padding: 8px;
+    height: 420px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(223, 223, 223, 0.925)
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .price {
+    position: absolute;
+  top: 40px;
+  left: 40px;
+    font-size: 16px;
+    font-weight: bold;
+   color: rgb(0, 0, 85);
+   background-color: rgb(227, 248, 255);
+   padding: 10px  8px;
+   border-radius: 10px;
+  }
+  
+  .pricing-card img{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  hr { border: none; border-top: 1px solid #ddd; margin: 10px 0; }
+ 
+ 
+  .pricing_ul .pricing_li { font-size: 16px; color: #555;text-align: left; margin-bottom: 10px;}
+  
+  .view-details {
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-align: left;
+  }
+  
+  .view-details:hover { color: #0056b3; }
+
+  .icon-arrow {
+    font-size: 20px;
+ 
+    margin-left: 20px;
+    position: relative;
+    top: 5px;
+  }
+
+  .feature-icon{
+    color: rgb(0, 0, 85);
+    background-color: rgb(227, 248, 255);
+    padding: 5px  8px;
+  font-size: 20px;
+    border-radius: 10px;
+
+  } */
+  .pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+   margin-top: -100px;
+  }
+  
+  .pricing-card {
+    position: relative;
+    width: 240px;
+    padding: 25px;
+  height: 365px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 1px solid rgba(223, 223, 223, 0.925);
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .price {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 85);
+    background-color: rgb(227, 248, 255);
+    padding: 10px 8px;
+    border-radius: 10px;
+  }
+  
+  .pricing-card img {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  
+  h2 {
+   
+  
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  p {
+    font-size: 14px;
+   
+    text-align: left;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  
+  .pricing-ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pricing-li {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .view-details {
+    margin-top: 15px;
+    display: flex;
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-align: left;
+  }
+  
+  .view-details:hover {
+    color: #0056b3;
+  }
+  
+  .icon-arrow {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  
+  .arrow-icon{
+    border: 2px solid blue;
+    padding: 8px ;
+    border-radius: 8px;
+
+  }
+  /* Feature Icons */
+  .feature-icon {
+    color: rgb(0, 0, 85);
+    background-color: rgb(227, 248, 255);
+    padding: 5px 8px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  /* Pagination Container */
+  .pagination-container {
+    display: flex;
+    align-items: center;
+    margin-left: 80%;
+    margin-top: 20px;
+    gap: 15px;
+
+  }
+  
+  /* Dots */
+  .dot-pagination {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: #007bff;
+    width: 14px;
+    height: 14px;
+  }
+  
+  /* Arrows */
+  .arrow {
+    font-size: 24px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .arrow.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
