@@ -54,7 +54,7 @@ const FirstPage = () => {
     <div 
     className="container" 
     style={{ 
-      backgroundImage: `linear-gradient(rgba(71, 0, 104, 0.86), rgba(185, 0, 176, 0.84)), url(${effect}), url(${firstimage})`,
+      backgroundImage: ` linear-gradient(176.15deg,rgb(83, 29, 102) 3.16%,rgb(104, 38, 128) 113.85%), url(${effect}), url(${firstimage})`,
       backgroundSize: "cover, contain, cover", 
       backgroundPosition: "center, center, center",
       backgroundBlendMode: "multiply, normal",
@@ -70,8 +70,8 @@ const FirstPage = () => {
           <h1>Excellence Redefined: Kelmac's Traning  Solutions - <span style={{color:'#FED639'}} className='tailored' >Tailored <img src={vector} className='effect-line'/> </span> </h1>
           <p>ISO traning designed around your business need- delivered when you need it, focused on what matters, and built to deliver measurable results.</p>
           <div className="buttons">
-            <button className="btn  blue-button" style={{width:'30%'}}>Get a Quote</button>
-            <button className="btn white-button"><img src={whatsapp}/> <span className='button-text' style={{marginLeft:'10px'}}>Whatsapp Us</span> </button>
+            <button className="btn  blue-button" style={{fontSize:'14px',fontWeight:'700'}}>Get a Quote</button>
+            <button className="btn white-button"><img src={whatsapp}/> <span className='button-text' style={{marginLeft:'5px', fontSize:'14px', color: "#6782FF",fontWeight:'700'}}>Whatsapp us</span> </button>
           </div>
         </div>
 
@@ -166,14 +166,14 @@ const FirstPage = () => {
               style={{height:'40px'}}
             ></textarea>
 
-            <button type="submit" className="btn submit blue-button">Submit</button>
+            <button type="submit" className="btn submit blue-button" style={{borderRadius:'4px'}}>Submit</button>
           </form>
         </div>
       </div>
 
    
       <div className="center">
-        <h1>Excellence Redefined: <br /> Kelmac's Traning  Solutions - <span style={{color:'#FED639'}} className='tailored' >Tailored <img src={vector} className='effect-line'/> </span></h1>
+        <h1>Excellence Redefined: Kelmac's Traning  Solutions - <span style={{color:'#FED639'}} className='tailored' >Tailored <img src={vector} className='effect-line'/> </span></h1>
         <p>We address the frustration of generic training by offering customized ISO solutions that focus only on your critical compliance and performance needs. Our flexible scheduling ensures training happens on your timeline, minimizing disruption while delivering immediate, actionable value. With expert-led sessions, we empower your team to achieve lasting improvements and certification success faster..</p>
       </div>
 

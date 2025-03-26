@@ -1,6 +1,6 @@
 .container {
 
-   height: 145vh;
+   height: 170vh;
    width: 100%;
     margin-top: 100px;
   background-size: contain, cover;
@@ -17,52 +17,66 @@ z-index: 10000;
   
   .sections {
     display: flex;
-    width: 100vw; /* Ensures full width */
-    gap: 40px;
+    width: 100vw; 
+  
     justify-content: space-between;
 }
   
   .left {
     flex: 1;
     text-align: left;
-    margin: 100px 80px;
+    margin: 100px 0px;
+   
   }
   
   .left h1 {
-    font-size: 2.9rem;
-    margin-bottom: 10px;
+    font-size: 45px;
+    margin-bottom: 40px;
     color: #ffffff;
+ line-height: 58px;
+    letter-spacing: -0.5px;
+
   }
   
   .left p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     color: #ffffff;
     font-size: 20px;
+    font-weight: 400;
+    line-height: 180%;
   }
   
   .buttons {
     display: flex;
-
+    border-radius: 8px;
     gap: 20px;
   }
   .blue-button{
 border: 1px solid black; 
-background: rgba(88, 141, 207, 1);
+background:#6782FF;
 color: white;
+width: 159px;
+height: 42px;
+line-height: 20px;
+border-radius: 8px;
 
 
   }
   .white-button{
     color: black;
     display: flex;
-
+width: 159px;
+height: 42px;
+line-height: 20px;
+color: #6782FF;
+border-radius: 8px;
 
   }
   .btn {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    
     transition: background 0.3s ease;
 
   }
@@ -71,24 +85,24 @@ color: white;
 
   
   .right {
-    margin-right: 70px;
+    margin-right: 120px;
     flex: 1;
     text-align: left;
-    margin-top: -20px;
+    margin-top: 0px;
   }
   
   form {
     display: grid;
-   gap: 1px;
-    margin: 30px 10px;
+     gap: 1px;
+    margin: 40px 10px;
    
     justify-content: center;
     align-items: center;
   }
   label{
     color: white;
-    padding-bottom: 8px;
-    padding-top: 5px;
+    padding-bottom: 4px;
+    padding-top: 15px;
     font-size: 14px;
     font-weight: 550;
   }
@@ -100,26 +114,30 @@ color: white;
   form input, form select,
   form textarea {
  height: 14px;
-    padding: 12px 20px;
-    width: 140%;
+    padding: 0px 10px;
+    width: 160%;
     border: 1px solid rgba(200, 205, 243, 1);
     border-radius: 5px;
     background-color: rgba(235, 241, 248, 1)  ;
     color: rgba(174, 178, 227, 1);
     letter-spacing:1px; 
+  
 
     
   }
 
   form select{
-    width: 160%;
+    width: 182%;
   }
   
   .submit {
-    margin-top: 12px;
+    margin-top: 25px;
     background-color: rgba(103, 130, 255, 1);
     color: #fff;
-    width: 160%;
+    width: 180%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
   }
   
   .center {
@@ -129,15 +147,21 @@ color: white;
   }
   
   .center h1 {
-    font-size: 3rem;
-    
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 64px;
     color: #ffffff;
+    letter-spacing: -0.5px;
   }
   
   .center p {
     color: #ffffff;
-    font-size: 21px;
+    font-size: 18px;
     padding-top: 5px;
+    font-weight: 400;
+    line-height: 180%;
+    text-align: justify;
+    letter-spacing: 0;
   }
 .tailored{
     position: relative;
@@ -158,8 +182,100 @@ color: white;
   }
 .trigger{
   position: fixed ;
-   bottom: 20px; /* Adjust as needed */
-  right: 5px; /* Adjust as needed */
+   bottom: 20px; 
+  right: 5px; 
   z-index: 1000;;
 }
  
+
+  /* Responsive for Laptops (1024px - 1440px)
+@media (max-width: 1440px) {
+  .container {
+    height: auto; 
+    padding-bottom: 50px; 
+  }
+
+  .sections {
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .left {
+    margin: 80px 50px; 
+  }
+
+  .left h1 {
+    font-size: 42px; 
+    margin-bottom: 30px;
+  }
+
+  .left p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+  }
+
+  .right {
+    margin-right: 80px; 
+  }
+
+  form input,
+  form select,
+  form textarea {
+    width: 140%; 
+  }
+
+  .submit {
+    width: 140%;
+  }
+
+  .center {
+    margin: 50px;
+  }
+
+  .center h1 {
+    font-size: 2.5rem;
+  }
+
+  .center p {
+    font-size: 18px;
+  }
+
+  .trigger {
+    right: 15px;
+    bottom: 30px;
+  }
+}
+
+
+@media (max-width: 1280px) {
+  .left {
+    margin: 60px 40px;
+  }
+
+  .left h1 {
+    font-size: 36px;
+  }
+
+  .left p {
+    font-size: 16px;
+  }
+
+  .right {
+    margin-right: 50px;
+  }
+
+  form input,
+  form select,
+  form textarea {
+    width: 120%;
+  }
+
+  .submit {
+    width: 120%;
+  }
+} */

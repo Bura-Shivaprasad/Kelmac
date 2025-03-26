@@ -48,7 +48,7 @@
      padding: 10px 20px;
      border: none;
      cursor: pointer;
-     border-radius: 5px;
+ 
      transition: background 0.3s ease;
  
    }
@@ -84,12 +84,12 @@
      
    }
    
-   .submit {
+   /* .submit {
      margin-top: 12px;
 
      color: #fff;
      width: 160%;
-   }
+   } */
    
  
  

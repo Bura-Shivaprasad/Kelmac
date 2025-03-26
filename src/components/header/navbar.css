@@ -6,7 +6,7 @@
   height: 100px;
     background-color: #ffffff;
     color: #000000;
-    position: fixed; /* Makes it stick to the top */
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -24,18 +24,19 @@
   
   .menu {
     display: flex;
-    gap: 40px;
+    gap: 35px;
     align-items: center;
     padding: 20px;
     font-weight: 600;
-    margin-right: 60px;
+    margin-right: 80px;
   }
   
   .menu a {
     text-decoration: none;
-    color: #000000;
+    color: #101828;
     font-size: 16px;
     transition: color 0.3s ease;
+    line-height: 24px;
   }
   
   .menu a:hover {
@@ -45,11 +46,13 @@
  margin-right: -30px;
   }
   .menu .number{
-    color: rgba(88, 141, 207, 1);
+    color: #588DCF;
   }
   .contact-btn {
     padding: 10px 20px;
-    background: rgba(88, 141, 207, 1);
+    background: #588DCF;
+    font-size: 14px;
+    font-weight: 700;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -60,3 +63,5 @@
   .contact-btn:hover {
     background: #007BFF;
   }
+
+  
