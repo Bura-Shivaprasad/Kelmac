@@ -13,7 +13,7 @@ import whatsapp from '../../../assets/whatsapp_icon.png';
 const SecondPage = () => {
   return (
     <div className="page-container">
-        <div className="background-image" style={{ backgroundImage: `linear-gradient( to right, rgb(252, 252, 252), rgba(255, 255, 255, 0) ) , url(${secondimage})`,}}></div>
+        <div className="background-image" style={{ backgroundImage: `linear-gradient( to right, rgb(252, 252, 252), rgba(255, 255, 255, 0) ) , url(${secondimage})`, height:'165vh'}}></div>
 <div className='main-left'>
       <h1 style={{marginLeft:'-6px'}}>Why Choose Private & In-House Training</h1>
       <p className="small-text" style={{marginLeft:'-1px'}}>Tailored Learning That Works for Your Business</p>
@@ -33,12 +33,12 @@ const SecondPage = () => {
       <p className='para'>Private, in-house training eliminates these barriers by bringing the learning experience directly to your organization—on your schedule, with your priorities in mind.</p>
 
       <div className="button-group">
-        <button className="btn blue-button" style={{width:'12%'}}>Get a Quote</button>
-                    <button className="btn white-button " style={{border:'1px solid gray'}}><img src={whatsapp}/> <span className='button-text' style={{marginLeft:'10px'}}>Whatsapp Us</span> </button>
+      <button className="btn  blue-button" style={{fontSize:'14px',fontWeight:'700'}}>Get a Quote</button>
+      <button className="btn white-button"><img src={whatsapp}/> <span className='button-text' style={{marginLeft:'5px', fontSize:'14px', color: "#6782FF",fontWeight:'700'}}>Whatsapp us</span> </button>
         
       </div>
 
-       <div style={{marginTop:'60px'}}>
+       <div style={{marginTop:'70px'}}>
  <img src={vectorbig}    />  
       </div>
     </div>

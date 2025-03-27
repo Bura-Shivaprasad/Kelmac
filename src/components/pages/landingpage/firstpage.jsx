@@ -53,12 +53,17 @@ const FirstPage = () => {
   return (
     <div 
     className="container" 
+
+
     style={{ 
-      backgroundImage: ` linear-gradient(176.15deg,rgb(83, 29, 102) 3.16%,rgb(104, 38, 128) 113.85%), url(${effect}), url(${firstimage})`,
+      background: `linear-gradient(  to right,
+    rgba(53, 5, 55, 0.85),
+    rgba(26, 11, 43, 0.85)), url(${effect}), url(${firstimage})`,
       backgroundSize: "cover, contain, cover", 
       backgroundPosition: "center, center, center",
       backgroundBlendMode: "multiply, normal",
-      backgroundRepeat: "no-repeat, no-repeat, no-repeat"
+      backgroundRepeat: "no-repeat, no-repeat, no-repeat",
+     
     }}
   >
   
@@ -173,7 +178,7 @@ const FirstPage = () => {
 
    
       <div className="center">
-        <h1>Excellence Redefined: Kelmac's Traning  Solutions - <span style={{color:'#FED639'}} className='tailored' >Tailored <img src={vector} className='effect-line'/> </span></h1>
+        <h1>Excellence Redefined:<br /> Kelmac's Traning  Solutions - <span style={{color:'#FED639'}} className='tailored' >Tailored <img src={vector} className='effect-line'/> </span></h1>
         <p>We address the frustration of generic training by offering customized ISO solutions that focus only on your critical compliance and performance needs. Our flexible scheduling ensures training happens on your timeline, minimizing disruption while delivering immediate, actionable value. With expert-led sessions, we empower your team to achieve lasting improvements and certification success faster..</p>
       </div>
 

@@ -19,7 +19,7 @@ function App() {
      <FormSection />
      <div className='underline_color' style={{zIndex:'1000'}}></div>
      <SecondPage />
-     <div className='underline_color after_second'></div>  
+     <div className='underline_color after_second'  style={{zIndex:'1000'}}></div>  
      <PricingCards />
      <FourthPage />
       <Cards />

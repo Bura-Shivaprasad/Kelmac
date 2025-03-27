@@ -8,7 +8,7 @@
     text-align: center;
     justify-content: center;
 background-blend-mode: normal;
-background-image: linear-gradient(#BC5CDE, #A241C5);
+/* background-image: (238.64deg, rgba(255, 5, 143, 0) 36.72%, rgba(255, 5, 143, 0.8) 100%); */
 
 z-index: 10000;
     padding: 0;
@@ -25,12 +25,12 @@ z-index: 10000;
   .left {
     flex: 1;
     text-align: left;
-    margin: 100px 0px;
+    margin: 100px 80px;
    
   }
   
   .left h1 {
-    font-size: 45px;
+    font-size: 42px;
     margin-bottom: 40px;
     color: #ffffff;
  line-height: 58px;
@@ -41,7 +41,7 @@ z-index: 10000;
   .left p {
     margin-bottom: 30px;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 180%;
   }
@@ -100,11 +100,11 @@ border-radius: 8px;
     align-items: center;
   }
   label{
-    color: white;
+    color: #EBF1F8  ;
     padding-bottom: 4px;
     padding-top: 15px;
-    font-size: 14px;
-    font-weight: 550;
+    font-size: 14px;line-height: 100%;
+    font-weight: 700;
   }
   input::placeholder, textarea::placeholder, select::placeholder{
     letter-spacing:1px;
@@ -118,7 +118,7 @@ border-radius: 8px;
     width: 160%;
     border: 1px solid rgba(200, 205, 243, 1);
     border-radius: 5px;
-    background-color: rgba(235, 241, 248, 1)  ;
+    background-color: #EBF1F8  ;
     color: rgba(174, 178, 227, 1);
     letter-spacing:1px; 
   
@@ -147,11 +147,13 @@ border-radius: 8px;
   }
   
   .center h1 {
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 900;
     line-height: 64px;
     color: #ffffff;
     letter-spacing: -0.5px;
+ 
+    
   }
   
   .center p {

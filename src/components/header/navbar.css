@@ -37,6 +37,7 @@
     font-size: 16px;
     transition: color 0.3s ease;
     line-height: 24px;
+    font-weight: 400;
   }
   
   .menu a:hover {
@@ -47,6 +48,9 @@
   }
   .menu .number{
     color: #588DCF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
   }
   .contact-btn {
     padding: 10px 20px;
