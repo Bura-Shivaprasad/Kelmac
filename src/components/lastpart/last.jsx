@@ -50,7 +50,7 @@ const LastPage = () => {
     <div 
     className="container_last" 
     style={{ 
-      backgroundImage: `linear-gradient(rgba(53, 25, 83, 1), rgba(53, 25, 83, 0.6)), url(${lastpartimage})`,
+      backgroundImage: `linear-gradient(rgb(105, 72, 139), rgba(53, 25, 83, 0.6)), url(${lastpartimage})`,
       backgroundSize: "cover, cover", 
       backgroundPosition: "center, center",
       backgroundBlendMode: "multiply, normal",
@@ -84,7 +84,7 @@ const LastPage = () => {
               value={formData.name}
               onChange={handleChange} 
               required 
-              style={{width:'95%', marginBottom:'15px'}}    
+              style={{width:'95%', marginBottom:'15px', height:'36px'}}    
             />
 <div className='label_flex'>
     <div>
@@ -97,7 +97,7 @@ const LastPage = () => {
               value={formData.email}
               onChange={handleChange} 
               required 
-              style={{width:'80%',display:'flex' , marginBottom:'15px', marginTop:'5px' 
+              style={{width:'80%',display:'flex' , marginBottom:'15px', marginTop:'5px', height:'37px'
               }}
             />
             </div>
@@ -133,7 +133,7 @@ const LastPage = () => {
               value={formData.training}
               onChange={handleChange} 
               required 
-             style={{width:'102%',display:'flex', marginTop:'5px',height:'40px'
+             style={{width:'98%',display:'flex', marginTop:'5px',height:'40px'
               }}
             >
                    <option value="" >select training</option>
@@ -155,7 +155,7 @@ const LastPage = () => {
               value={formData.courseNature}
               onChange={handleChange} 
               required 
-              style={{width:'100%',display:'flex', marginLeft:'35px', marginTop:'5px',height:'40px'
+              style={{width:'101%',display:'flex', marginLeft:'27px', marginTop:'5px',height:'40px'
               }}
             >
 
@@ -175,10 +175,10 @@ const LastPage = () => {
               rows="4"
               value={formData.message}
               onChange={handleChange}
-              style={{width:'95%',height:'40px'}}
+              style={{width:'95%',height:'80px'}}
             ></textarea>
 
-            <button type="submit" className="btn submit blue-button_last" style={{width:'106%', marginTop:'30px'}}>Submit</button>
+            <button type="submit" className="btn submit blue-button_last" style={{width:'106%', marginTop:'20px', borderRadius:'8px', height:'40px'}}>Submit</button>
           </form>
         </div>
       </div>

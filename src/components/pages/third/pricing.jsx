@@ -47,14 +47,14 @@ import { FaRegClock } from "react-icons/fa";
 import { LuCalendar } from "react-icons/lu";
 
 const plans = [
-  { price: "₹32500", title: "ISO 9001:2015 Lead Auditor Training Course", description: "Quality Management", features: ["Virtual", "3 Mar 25 to 9 Mar 25", "4 days", "English"] },
-  { price: "₹32500", title: "ISO 9001:2015 Lead Auditor Training Course", description: "Great for businesses.", features: ["Virtual", "3 Mar 25 to 9 Mar 25", "4 days", "English"] },
-  { price: "₹32500", title: "ISO 9001:2015 Lead Auditor Training Course", description: "Best for professionals.", features: ["Virtual", "3 Mar 25 to 9 Mar 25", "4 days", "English"] },
-  { price: "₹32500", title: "ISO 9001:2015 Lead Auditor Training Course", description: "For large enterprises.", features: ["Virtual", "3 Mar 25 to 9 Mar 25", "4 days", "English"] },
-  { price: "₹32000", title: "ISO 14001:2015 Lead Auditor Course", description: "Environmental Management", features: ["Onsite", "15 Apr 25 to 19 Apr 25", "5 days", "English"] },
-  { price: "₹31000", title: "ISO 27001:2015 Lead Auditor Course", description: "Information Security", features: ["Online", "10 May 25 to 14 May 25", "5 days", "English"] },
-  { price: "₹30000", title: "ISO 45001:2018 Lead Auditor Course", description: "Occupational Health & Safety", features: ["Hybrid", "22 Jun 25 to 26 Jun 25", "5 days", "English"] },
-  { price: "₹29000", title: "ISO 22000:2018 Lead Auditor Course", description: "Food Safety Management", features: ["Virtual", "5 Jul 25 to 9 Jul 25", "5 days", "English"] },
+  { price: "₹ 32,500", title: "ISO 9001:2015 Lead Auditor Training Course", description: "Quality Management", features: ["Virtual", "3 Mar 25 to 9 Mar 25", "4 days", "English"] },
+  { price: "₹ 32,500", title: "ISO 9001:2015 Lead Auditor Training Course", description: "Great for businesses.", features: ["Virtual", "3 Mar 25 to 9 Mar 25", "4 days", "English"] },
+  { price: "₹ 32,500", title: "ISO 9001:2015 Lead Auditor Training Course", description: "Best for professionals.", features: ["Virtual", "3 Mar 25 to 9 Mar 25", "4 days", "English"] },
+  { price: "₹ 32,500", title: "ISO 9001:2015 Lead Auditor Training Course", description: "For large enterprises.", features: ["Virtual", "3 Mar 25 to 9 Mar 25", "4 days", "English"] },
+  { price: "₹ 32,000", title: "ISO 14001:2015 Lead Auditor Course", description: "Environmental Management", features: ["Onsite", "15 Apr 25 to 19 Apr 25", "5 days", "English"] },
+  { price: "₹ 31,000", title: "ISO 27001:2015 Lead Auditor Course", description: "Information Security", features: ["Online", "10 May 25 to 14 May 25", "5 days", "English"] },
+  { price: "₹ 30,000", title: "ISO 45001:2018 Lead Auditor Course", description: "Occupational Health & Safety", features: ["Hybrid", "22 Jun 25 to 26 Jun 25", "5 days", "English"] },
+  { price: "₹ 29,000", title: "ISO 22000:2018 Lead Auditor Course", description: "Food Safety Management", features: ["Virtual", "5 Jul 25 to 9 Jul 25", "5 days", "English"] },
 ];
 
 const featureIcons = [<FiHome />, <LuCalendar />, <FaRegClock />];
@@ -82,8 +82,8 @@ const PricingCards = () => {
         <div key={index} className="pricing-card">
           <div className="price">{plan.price}</div>
           <img src={logo} alt="Logo" className="logo" />
-          <h2 style={{marginTop:'80px'}}>{plan.title}</h2>
-          <p>{plan.description}</p>
+          <h2 className="plan-title" style={{marginTop:'80px'}}>{plan.title}</h2>
+          <p className="plan_des">{plan.description}</p>
           <hr />
           <ul className="pricing-ul">
             {plan.features.map((feature, idx) => (
@@ -112,7 +112,7 @@ const PricingCards = () => {
           ))}
         </div>
 
-        <FaArrowRightLong  className={`arrow ${currentPage === totalPages ? "disabled" : ""} arrow-icon`} onClick={nextPage} />
+        <FaArrowRightLong style={{color:'rgba(58, 84, 118, 1)'}}  className={`arrow ${currentPage === totalPages ? "disabled" : ""} arrow-icon`} onClick={nextPage} />
       </div>
     </div>
   );

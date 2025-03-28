@@ -1,14 +1,29 @@
-.seventh-section {
+/* .seventh-section {
     padding: 40px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
     background-color: #351953 ;
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
     
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    
+} */
+
+.seventh-section {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+        background-color: #351953; /* Fallback color */
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
 }
+
+
 
 .seventh-content {
     display: flex;
@@ -27,19 +42,29 @@
 }
 
 .seventh-title {
-    font-size: 40px;
+
     color: #333;
     margin-bottom: 100px;
     color: #EFBF04;
+    font-family: DM Sans;
+font-weight: 700;
+font-style: italic;
+font-size: 44px;
+line-height: 48px;
+letter-spacing: 0%;
+
 }
 
 .seventh-paragraph {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.5;
+    
     margin-bottom: 60px;
     width: 80%;
-    color: white;
+    color: rgba(255, 255, 255, 1);
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
     
 }
 
@@ -55,20 +80,32 @@
 }
 
 .seventh-right-paragraph {
-    font-size: 16px;
-    color: #444;
+
+
  margin-bottom: 75px;
     border-radius: 8px;
     width: 80%;
     margin-top: -5px;
-    color: white;
+    color: rgba(255, 255, 255, 1);
+    font-family: DM Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+
  
     
 }
 
 .seventh-left h2{
-    font-size: 25px;
+    
     margin-left: 20px;
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+
 
 }
 

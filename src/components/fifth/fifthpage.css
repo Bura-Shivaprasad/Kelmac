@@ -71,7 +71,15 @@
 
   }   */
 
+.tailored{
+  font-family: DM Sans;
+font-weight: 700;
 
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
   .cards-container {
     text-align: center;
     padding: 20px;
@@ -117,19 +125,20 @@
   small {
     font-size: 14px;
     color: white;
-    margin-right: 45px;
+    margin-right: 35px;
+    align-items: center;
   }
-  
+/*   
   .card-description {
     margin-top: -20px;
     padding: 20px;
-    width: 83.2%;
+    width: 91.75%;
     text-align: left;
-    margin-left: 90.5px;
+    margin-left: 29px;
     border-radius: 2px;
     color: white;
     transition: background 0.3s ease-in-out;
-  }
+  } */
   
   .effect-line-fifth {
     position: absolute;
@@ -138,7 +147,7 @@
     width: 30%;
   }
   
-  .card {
+  /* .card {
     border-radius: 10px;
     padding: 15px;
     cursor: pointer;
@@ -147,11 +156,44 @@
     text-align: center;
     transition: height 0.3s ease-in-out, transform 0.3s ease-in-out;
     color: white;
-  }
+  } */
   
  
   /* Increase height when selected */
+  /* .card.selected {
+    height: 160px;
+  } */
+  
+  .card {
+    border-radius: 10px 10px 0 0; 
+    padding: 15px;
+    cursor: pointer;
+    width: 180px;
+    height: 140px;
+    text-align: center;
+    transition: height 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: white;
+   
+    background-clip: padding-box;
+    border-bottom: none; 
+  }
+  
   .card.selected {
     height: 160px;
   }
   
+  .card-description {
+    padding: 15px;
+
+    width: 92.6%;
+    text-align: left;
+    border-radius: 0 0 10px 10px; 
+    color: white;
+    background: linear-gradient(to right, #FF7E5F, #FEB47B); 
+    background-clip: padding-box;
+    transition: background 0.3s ease-in-out;
+    margin-top: -19.5px; 
+    margin-left: 29px;
+  }
+
+

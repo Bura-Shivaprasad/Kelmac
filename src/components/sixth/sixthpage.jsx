@@ -47,7 +47,7 @@ const SixthPage = () => {
 
       <div className="button-sixth">
         <button className="btn blue-button" style={{marginRight:'10px', width:'14%'}}>Get a Quote</button>
-            <button className="btn  " style={{border:'1px solid rgb(177, 177, 177)', width:'14%', display:'flex'}}><img src={whatsapp}/> <span className='button-text' style={{marginLeft:'10px'}}>Whatsapp Us</span> </button>
+            <button className="btn white-button " style={{border:'1px solid rgb(177, 177, 177)', width:'14%', display:'flex'}}><img src={whatsapp}/> <span className='button-text' style={{marginLeft:'10px'}}>Whatsapp Us</span> </button>
       </div>
     </div>
   );

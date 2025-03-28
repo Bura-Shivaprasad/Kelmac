@@ -5,7 +5,9 @@ const FourthPage = () => {
   return (
     <div className="fourthpage-container"  >
         <div className="background-image" style={{backgroundImage:`urL(${fourthimage})`}}></div>
-<div className='box' style={{ background: `linear-gradient(246.14deg, rgba(119, 0, 255, 0.8) 0.3%, rgba(255, 5, 143, 0.8) 100%)`, height:'130vh', width:'550px' }}> <h2> Customized programs <br/>
+<div className='box' style={{ background: `linear-gradient(  to right,
+    rgb(146, 19, 140),
+    rgba(51, 24, 82, 0.85))`, height:'130vh', width:'570px' }}> <h2> Customized programs <br/>
 tailored to client requirements!</h2>
 <p className='small-text-box'> Fully Tailored to Your Business Needs</p>
 <h3> No two businesses are the same</h3>

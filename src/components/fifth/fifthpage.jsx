@@ -15,7 +15,8 @@ const cardsData = [
     text: "Training Solution",
     description:
       "Reduce costs per participant through group pricing, making it more affordable than individual enrolments. Virtual or on-site delivery eliminates travel and accommodation expenses. Customized programs accelerate compliance and boost team efficiency. Achieve a faster return on investment with tailored, business-focused learning.",
-   color:" #F65585",
+   color:"linear-gradient(90deg, #FF8AB6 0%, #F65585 100%)", 
+
   },
   {
     id: 2,
@@ -24,7 +25,8 @@ const cardsData = [
     text: "Training Solution",
     description:
       "Reduce costs per participant through group pricing, making it more affordable than individual enrolments. Virtual or on-site delivery eliminates travel and accommodation expenses. Customized programs accelerate compliance and boost team efficiency. Achieve a faster return on investment with tailored, business-focused learning.",
-      color:" #8C7AFB" 
+      color:"linear-gradient(124.97deg, #AD9EFC -0.07%, #8C7AFB 99.93%)",
+
   },
   {
     id: 3,
@@ -33,7 +35,7 @@ const cardsData = [
     text: "Industry & Team",
     description:
       "Reduce costs per participant through group pricing, making it more affordable than individual enrolments. Virtual or on-site delivery eliminates travel and accommodation expenses. Customized programs accelerate compliance and boost team efficiency. Achieve a faster return on investment with tailored, business-focused learning.",
-color:'#45C6E8'
+color:' linear-gradient(124.97deg, #87E5FC -0.07%, #45C6E8 99.93%)'
   },
   {
     id: 4,
@@ -42,7 +44,7 @@ color:'#45C6E8'
     text: "Secure Learning",
     description:
       "Reduce costs per participant through group pricing, making it more affordable than individual enrolments. Virtual or on-site delivery eliminates travel and accommodation expenses. Customized programs accelerate compliance and boost team efficiency. Achieve a faster return on investment with tailored, business-focused learning.",
- color: "#FF9D2A"
+ color: " linear-gradient(124.97deg, #FECF9A -0.07%, #FF9D2A 99.93%)"
   },
   {
     id: 5,
@@ -51,7 +53,7 @@ color:'#45C6E8'
     text: "Delivery Options",
     description:
       "Reduce costs per participant through group pricing, making it more affordable than individual enrolments. Virtual or on-site delivery eliminates travel and accommodation expenses. Customized programs accelerate compliance and boost team efficiency. Achieve a faster return on investment with tailored, business-focused learning.",
-   color:' #36BE93'
+   color:'linear-gradient(124.97deg, #A0EAD3 -0.07%, #36BE93 99.93%)'
   },
 ];
 
@@ -61,7 +63,7 @@ const Cards = () => {
   return (
     <div className="cards-container">
       <h1>
-        <span className="tailored">
+        <span className="tailored" style={{fontSize:'28px'}}>
           The Benefits of Private In-House Training
           <img src={vector} className="effect-line-fifth" alt="Vector Line" />
         </span>
@@ -83,6 +85,7 @@ const Cards = () => {
             <img src={card.image} alt={card.title} className="card-image" />
             <h2 style={{ fontSize: '18px',
     margin: '-4px 8px',
+    alignItems:'center',
     color: 'white',
     textAlign: 'left',
     paddingLeft: '10px'}}> {card.title}</h2>
@@ -98,6 +101,7 @@ const Cards = () => {
         <p>{selectedCard.description}</p>
       </div>
     </div>
+
   );
 };
 

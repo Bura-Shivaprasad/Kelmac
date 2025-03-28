@@ -3,7 +3,7 @@
     height: 165vh; 
     text-align: left; 
 
-margin-top: -100px;
+margin-top: -70px;
     background-size: cover;
     background:linear-gradient(white, rgb(255, 255, 255));
  
@@ -40,6 +40,7 @@ left: 90px;
 .white-button{
     color: black;
     border: 1px solid rgb(185, 185, 185);
+    
  
   }
   
@@ -97,11 +98,10 @@ display: flex;
     display: flex;
     gap: 20px;
   }
-  
+
   .btn {
     padding: 10px 20px;
     /* background-color: #007BFF; */
-
 
     cursor: pointer;
     transition: background 0.3s ease;

@@ -92,6 +92,7 @@ const FirstPage = () => {
               value={formData.name}
               onChange={handleChange} 
               required 
+              style={{height:'37p x'}}
             />
 
             <label htmlFor="email">Email</label>
@@ -103,6 +104,7 @@ const FirstPage = () => {
               value={formData.email}
               onChange={handleChange} 
               required 
+              style={{height:'37px'}}
             />
 
             <label htmlFor="training">Training You Are Looking For</label>

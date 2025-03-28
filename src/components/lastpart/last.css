@@ -20,7 +20,7 @@
    
    .sections_last {
      display: flex;
-     width: 100vw; /* Ensures full width */
+     width: 100vw; 
      gap: 40px;
      justify-content: space-between;
  }
@@ -40,7 +40,16 @@
    .left_last p {
   margin-top: 50px;
      color: #ffffff;
-     font-size: 22px;
+    
+     font-family: DM Sans 36pt;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: -0.5px;
+
+   }
+   label{
+    color:rgba(235, 241, 248, 1);
    }
    
    
@@ -53,9 +62,7 @@
  
    }
    
-   
- 
-   
+
    .right_last {
      margin-right: 70px;
      flex: 1;
@@ -77,24 +84,24 @@
    form input,
    form textarea {
   
-     padding: 12px 20px;
+     padding: 1px 20px;
     
      border: 1px solid #ccc;
      border-radius: 5px;
      
    }
    
-   /* .submit {
-     margin-top: 12px;
 
-     color: #fff;
-     width: 160%;
-   } */
-   
- 
  
  .tailored_last{
      position: relative;
+     font-family: DM Sans 36pt;
+font-weight: 900;
+font-size: 48px;
+line-height: 64px;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
  }
    .effect-line-last{
      position: absolute;

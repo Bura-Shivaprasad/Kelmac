@@ -1,6 +1,7 @@
 .sixth-container {
     text-align: center;
     padding: 20px;
+    margin-top: 50px;
 }
 
 .sixth-heading {
@@ -70,20 +71,33 @@
 
 
 .sixth-card-title {
-    font-size: 18px;
+    
     margin-bottom: 5px;
     text-align: left;
-    margin-left: 20px;
-    margin-right: 50px;
+width: 80%;
+    font-family: DM Sans;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+
 }
 
 
 .sixth-card-text {
-    margin-left: 20px;
-    font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
     color: black;
     text-align: left;
-    word-spacing: 3px;
+ 
+    font-family: DM Sans;
+width: 90%;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0%;
+
 }
 
 .button-sixth{
@@ -91,4 +105,27 @@
     display: flex;
     justify-content: center;
  margin-bottom: 40px;
+ border-radius: 8px;
+
+ line-height: 20px;
+ color: #6782FF;
 }
+
+
+.white-button{
+    color: black;
+    display: flex;
+width: 162px;
+height: 42px;
+line-height: 20px;
+color: #6782FF;
+border-radius: 8px;
+
+  }
+  .btn {
+  
+    cursor: pointer;
+    
+    transition: background 0.3s ease;
+
+  }

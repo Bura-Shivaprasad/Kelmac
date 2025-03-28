@@ -34,7 +34,7 @@ const SecondPage = () => {
 
       <div className="button-group">
       <button className="btn  blue-button" style={{fontSize:'14px',fontWeight:'700'}}>Get a Quote</button>
-      <button className="btn white-button"><img src={whatsapp}/> <span className='button-text' style={{marginLeft:'5px', fontSize:'14px', color: "#6782FF",fontWeight:'700'}}>Whatsapp us</span> </button>
+      <button className="btn white-button secondpage_btn" style={{border:'1px solid rgb(182, 182, 182)'}}><img src={whatsapp}/> <span className='button-text' style={{marginLeft:'5px', fontSize:'14px', color: "#6782FF",fontWeight:'700'}}>Whatsapp us</span> </button>
         
       </div>
 
