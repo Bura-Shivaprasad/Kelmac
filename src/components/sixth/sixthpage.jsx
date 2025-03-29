@@ -23,9 +23,14 @@ const SixthPage = () => {
       <div className="sixth-cards">
        
         <div className="sixth-row">
-          <h5 className="sixth-intro-text" style={{fontSize:'170px',display:'flex', color:'#FFD019', marginTop:'50px', marginRight:'30px'}}>{cardsData[0].description} <p className="" style={{fontSize:'15%', fontWeight:'600',color:'blue', marginTop:'60px'}}>Key <br /> Reasons <br/>  To Choose <br/>  Private Traning</p></h5>
+          <h5 className="sixth-intro-text" style={{fontSize:'170px',display:'flex', color:'#FFD019', marginTop:'50px', marginRight:'30px'}}>{cardsData[0].description} <p className="inside" style={{fontSize:'15%', fontWeight:'600',color:'blue', marginTop:'60px', color:'rgba(88, 141, 207, 1)'}}>Key <br /> Reasons <br/>  To Choose <br/>  Private Traning</p></h5>
           {cardsData.slice(1, 3).map((card) => (
-            <div key={card.id} className="sixth-card" style={{ backgroundColor: card.bgColor }}>
+            <div key={card.id} className="sixth-card" style={{ backgroundColor: card.bgColor, fontFamily: 'Koulen',
+            fontWeight: '400',
+              fontSize: '208px',
+              lineHeight: '100%',
+              letterSpacing:'0%'
+               }}>
               <img src={card.image} alt={card.title} className="sixth-card-image" />
               <h1 className="sixth-card-title">{card.title}</h1>
               <p className="sixth-card-text">{card.description}</p>

@@ -92,7 +92,7 @@ const FirstPage = () => {
               value={formData.name}
               onChange={handleChange} 
               required 
-              style={{height:'37p x'}}
+              style={{height:'37px'}}
             />
 
             <label htmlFor="email">Email</label>

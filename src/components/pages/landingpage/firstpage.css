@@ -187,6 +187,7 @@ border-radius: 8px;
    bottom: 20px; 
   right: 5px; 
   z-index: 1000;;
+  cursor: pointer;
 }
  
 
