@@ -101,10 +101,12 @@ border-radius: 8px;
   }
   label{
     color: #EBF1F8  ;
-    padding-bottom: 4px;
+    padding-bottom: 12px;
     padding-top: 15px;
     font-size: 14px;line-height: 100%;
     font-weight: 700;
+  
+  
   }
   input::placeholder, textarea::placeholder, select::placeholder{
     letter-spacing:1px;
@@ -123,7 +125,6 @@ border-radius: 8px;
     letter-spacing:1px; 
   
 
-    
   }
 
   form select{
